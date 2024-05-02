@@ -5,132 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6604de4-bfb6-4650-a0c0-ad92273c3f00" name="Changes" comment="Half done">
-      <change afterPath="$PROJECT_DIR$/.idea/briceclain.com.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/LogoPeriod.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/ac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/ac2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/acc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/acca.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/ardown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/aright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/aww.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/backk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/bio.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/bioa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/design.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/devis.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/drag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/focus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/idea.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/iphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/laptop.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/li.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/li2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/lo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/lo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/ma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/ma2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/mac-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/mac2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/moon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/out.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/pb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/pe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/pe2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/period-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/periodmobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/profil1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/rea.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/reaa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/reseaux/in.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/reseaux/ln.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/reseaux/tt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/reseaux/yt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/settings.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/starss.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/tech/item1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/tech/item2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/tech/item21.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/tech/item22.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/tech/item3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/tech/item4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/tech/item5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/tech/item6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/tech/item7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/img/tech/item8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/en/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Montserrat-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/LogoPeriod.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ac.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ac2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/acc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/acca.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ardown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/aww.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/backk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bio.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bioa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/design.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/devis.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/drag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/focus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/idea.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/iphone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/laptop.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/li.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/li2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/load.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ma2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mac-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mac2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/moon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/out.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pe2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/period-min.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/periodmobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/poopy-header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/poppy-mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/poppy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/poppy2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/profil1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/rea.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/reaa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/reseaux/in.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/reseaux/ln.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/reseaux/tt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/reseaux/yt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/settings.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/starss.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tech/item1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tech/item2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tech/item21.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tech/item22.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tech/item3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tech/item4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tech/item5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tech/item6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tech/item7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/tech/item8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/top.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../saveweb2zip-com-dianatoloza-co.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../saveweb2zip-com-impactio-template-webflow-io.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../milele_parish" beforeDir="false" afterPath="$PROJECT_DIR$/../milele_parish" afterDir="false" />
@@ -148,14 +22,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jasongithui"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jasongithui&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -172,21 +46,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.htm.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jason/Downloads/projects/jason.gateshed&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.htm.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/jason/Downloads/projects/jason.gateshed",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -199,6 +73,7 @@
       <workItem from="1714223252152" duration="5120000" />
       <workItem from="1714291403929" duration="43881000" />
       <workItem from="1714566856912" duration="7575000" />
+      <workItem from="1714626827647" duration="634000" />
     </task>
     <task id="LOCAL-00001" summary="Half done">
       <option name="closed" value="true" />

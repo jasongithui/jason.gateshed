@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8HSXP45WGL');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1, maximum-scale=3.0, minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:url" content=" https://jason.gateshed.co.uk ">
+    <meta property="og:image" content=" https://jason.gateshed.co.uk/img/profil1.png ">
+    <meta property="og:description" content="Salut, moi c'est Brice! Je design et développe des sites web. Je design aussi votre image de marque, logo... ">
+    <meta property="og:title" content=" Brice Clain, designer graphique et developpeur web. ">
+    <meta name="keywords" content="tél 819, propulsion pme, stratège web, média webdesign, siteweb ca, production vidéo, aujourd hui, médias sociaux, génération web, imprimerie trois, web impression, asp net, trois rivieres, rocky giroux, stylla web, syn média, david magny, commerce électronique, nouveau site, média fou, web pour inspecteur, trois rivières yannick, armoires de cuisine, festivoix de trois, réseau agences intégrées, agences intégrées 360, tourisme trois rivières, diocèse de trois, 2018 par pagup, pagup agence seo, trois rivière ottawa, conception plan évacuation, plan évacuation trois, évacuation trois rivières, qualifiées vous contacteront, madison solutions web, université du québec, formulaire et agences, agences web qualifiées, hétu solutions évolutives, idée création web, salamandre conception infographique, créations web trois, petites et moyennes, basée trois rivières, clés en main, refonte de site, offrant des services, conception, création, internet, québec, mauricie, marketing, services, commerce, référencement, entreprises, pme, spécialisée, concepteur, numérique, montréal, sherbrooke, service, hébergement, gestion, située, offre, studio, réseau, communication, affaires, wordpress, ville, équipe, local, prix, rue, imprimerie, stratégie, siteexact, offrir, publicité, recherche, petites, boutique, entreprise, vidéo, collège, laflèche, consultant, victoriaville, plan, stratégies, officiel, université, rocky, giroux, experts, facebook    ">
+    <title>Jason, Software Engineer | web designer | ux/ui</title>
+    <link rel="icon" type="image/png" href="icon.png"/>
+    <link rel="stylesheet" href="css/style2.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollToPlugin.min.js"></script>
+</head>
+<body class="my-scrollbar">
+  
+
+  <div class="contact_back">
+  </div>
+    <div class="contact">
+      <div class="retour"> 
+        <img src="img/back.svg" alt="retour">
+        <p>Retour</p>
+      </div>
+
+              
+      <div class="num">
+        <h2>Contacts</h2>
+        <a href="mailto: jason@gateshed.co.uk"><h3>jason@gateshed.co.uk </h3></a>
+        <a href="tel: +44 7590810094"> <h3>(+44 7590810094)</h3></a>
+      </div>
+
+      <form id="form" >
+
+  
+        <p class="cour c1">Votre courriel</p>
+        <div class="input_group">
+          <input oninput="courchange()"  type="email" name="email" placeholder="Votre courriel" required>
+        </div>
+        <p class="cour c2">Votre nom complet</p>
+        <div class="input_group">
+          <input oninput="nomchange()"  type="name" name="name" placeholder="Votre nom complet" required>
+        </div>
+        <p class="cour c3">Votre projet</p>
+        <div class="input_group">
+          <textarea oninput="projetchange()"  name="message"  placeholder="Comment je peux vous aider ?" required></textarea>
+        </div>
+        <p id="err"></p>
+        <p id="succ"></p>
+        <div class="input_group">
+          <button type="submit">Envoyer</button>
+        </div>
+      </form>
+
+      <div class="reseaux">
+        <a class="rleft" href="https://www.instagram.com/brice.web/" target="_blank"><img src="img/reseaux/in.svg" alt="instagram"></a>
+        <a  href="https://www.linkedin.com/in/brice-clain-853852189/" target="_blank"><img src="img/reseaux/ln.svg" alt="linkedin"></a>
+        <a class="rleft" href="https://www.tiktok.com/@brice.web" target="_blank"><img src="img/reseaux/tt.svg" alt="tiktok"></a>
+        <a href="https://www.behance.net/briceclain" target="_blank"><img src="img/reseaux/yt.svg" alt="youtube"></a>
+       </div>
+    </div>
+  
+          
+    
+      <a  id="boutontr">
+        
+          <h4>work <br> With Me</h4>
+          <div class="ar">
+            <img src="img/aright.svg" alt="travailler avec moi">
+          </div>
+          
+      </a>
+
+
+     
+    <div class="loading">
+      <div class="top">
+      </div>
+      <div class="hide">
+      </div>
+      <div class="lback chargement">
+      </div>
+    </div>
+
+    <div class="menu">
+
+      <img id="imgprofil" src="img/profil1.pn" alt="Logo Brice Clain">
+
+      <div class="men">
+
+        <a onclick="acc()" class="ac item select">
+          <img src="img/acc.svg" alt="home">
+          <h5>Welcome</h5>
+        </a>
+
+        <a onclick="rea()" class="rea item">
+          <img src="img/rea.svg" alt="realisations">
+          <h5>Projects</h5>
+        </a>
+
+        <a onclick="qu()" class="qu item">
+          <img src="img/bio.svg" alt="biographie">
+          <h5>About me</h5>
+        </a>
+
+        <a href="en/" class="ang">
+          <h4>EN</h4>
+        </a>
+
+        <img class="drag" src="img/drag.svg" alt="drag">
+
+      </div>
+
+       <div class="reseaux">
+        <a class="rleft" href="https://www.instagram.com/brice.web/" target="_blank"><img src="img/reseaux/in.svg" alt="instagram"></a>
+        <a  href="https://www.linkedin.com/in/brice-clain-853852189/" target="_blank"><img src="img/reseaux/ln.svg" alt="linkedin"></a>
+        <a class="rleft" href="https://www.tiktok.com/@brice.web" target="_blank"> <img src="img/reseaux/tt.svg" alt="tiktok"></a>
+        <a href="https://www.behance.net/briceclain" target="_blank"><img src="img/reseaux/yt.svg" alt="youtube"></a>
+       </div>
+
+    </div>
+
+    <div class="content">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
+      <section class="sec1" id="#sec1">
+        <div class="back">
+        </div>
+          <img class=" it item1 purple" src="img/tech/item1.svg" alt="Figma">
+          <img class=" it item2" src="img/tech/item2.svg" alt="Adobe xd">
+          <img class=" it item3" src="img/tech/item3.svg" alt="">
+          <img class=" it item4" src="img/tech/item4.svg" alt="">
+          <img class=" it item5" src="img/tech/item5.svg" alt="">
+          <img class=" it item6" src="img/tech/item6.svg" alt="">
+          <img class=" it item7" src="img/tech/item7.svg" alt="">
+          <img class=" it item8" src="img/tech/item8.svg" alt="">
+    
+
+          <img id="imgprofil" src="img/profil1.pn" alt="">
+
+        <div class="s1">
+          <div class="orange"></div>
+          <div class="texts1 anim-typewriter">
+            <div class="line line1">
+              <p>01 </p>
+              <div class= "textcontain">
+                <h2>  Bonjour, I'm<span> Jason G</span>  ! </h2>
+                <div class="hide"></div>
+              </div>
+            </div>
+            <div class="line line2">
+              <p>02</p>
+              <div class= "textcontain">
+                <h2> I <span>Craft</span> <img src="img/design.svg" alt="design"> and <span>develop </span> <img src="img/laptop.svg" alt="laptop">   </h2>
+                <div class="hide"></div>
+              </div>
+            </div>
+            <div class="line line3">
+                <p>03</p>
+                <div class= "textcontain">
+                  <h2> Web <span> apps </span> . </h2>
+                  <div class="hide"></div>
+                </div>
+            </div>
+          </div>
+          <h4>I also create your brand identity and logo design...</h4>
+        </div>
+
+        
+
+        <a class="btnsec1" onclick="scrollacc()">
+          <p>How it's Done</p>
+          <img src="img/ardown.svg" alt="">
+        </a>
+
+      </section>
+
+
+      <div class="title">
+        <div class="orange"></div>
+        <div class="texttitle anim-typewriter">
+          <div class="line line1">
+            <p>01 </p>
+            <div class= "textcontain">
+              <h5>  To kick things off, let's dive into the creative pool and</h5>
+              <div class="hide"></div>
+            </div>
+          </div>
+          <div class="line line2">
+            <p>02</p>
+            <div class= "textcontain">
+              <h5>  <span>reel in an idea!</span> ... </h5>
+              <div class="hide"></div>
+            </div>
+          </div>
+
+          <div class="line line3">
+            <p>03 </p>
+            <div class= "textcontain">
+              <h5>  Once a solid concept is established. </h5>
+              <div class="hide"></div>
+            </div>
+          </div>
+          <div class="line line4">
+            <p>04</p>
+            <div class= "textcontain">
+              <h5>  <span> A Design Prototype is crafted </span> ... </h5>
+              <div class="hide"></div>
+            </div>
+          </div>
+          <div class="line line5">
+            <p>05 </p>
+            <div class= "textcontain">
+              <h5> Develop with cutting-edge tech. </h5>
+              <div class="hide"></div>
+            </div>
+          </div>
+          <div class="line line6">
+            <p>06</p>
+            <div class= "textcontain">
+              <h5> Conduct rigorous testing for <span>quality assurance</span>.</h5>
+              <div class="hide"></div>
+            </div>
+          </div>
+          <div class="line line7">
+            <p>07 </p>
+            <div class= "textcontain">
+              <h5> <span>Deploy</span> and go live! </h5>
+              <div class="hide"></div>
+            </div>
+          </div>
+          <div class="line line8">
+            <p>08</p>
+            <div class= "textcontain">
+              <h5> Buckle up for <span> ongoing support</span> and fun! </h5>
+              <div class="hide"></div>
+            </div>
+          </div>
+          <div class="line line9">
+            <p>09</p>
+            <div class= "textcontain">
+              <h5>  You are probably wondering  </h5>
+              <div class="hide"></div>
+            </div>
+          </div>
+          <div class="line line10">
+            <p>10</p>
+            <div class= "textcontain">
+              <h5>  .......</h5>
+              <div class="hide"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+
+      <section class="sec2" id="sec2">21
+
+        <div class="message">
+<!--          client's voice-->
+          <div class="period m1">
+            <img src="img/LogoPeriod.png" alt="miniature period">
+            <h3>I need to <span>launch</span>  a <span>website</span>, for my Venture. <br>  a hub for promoting sustainable lifestyle products.🌱 <br> Intriguing, isn't it?
+            </h3>
+          </div>
+<!--          Dev's voice-->
+          <div class="moi m2">
+            <h3> That sounds fantastic! I'm all ears. 👂
+              <br> Tell me more about you're <span> vision.</span>
+            </h3>
+            <img src="img/profil1.png" alt="">
+          </div>
+<!--          Client's voice-->
+          <div class="period m3">
+            <img src="img/LogoPeriod.png" alt="">
+            <h3> Well, we're all about <span> sustainability </span> and promoting products that align with <span> eco-friendly </span> practices.
+               Think <span> reusable products,</span>  <span> organic materials,</span> the works.♻️
+            </h3>
+          </div>
+
+          <!--          Dev's voice-->
+          <div class="moi m2">
+            <h3>  Love it! Rest assured, I've got you covered.
+              <br> First things first, I'll whip up a <span> design prototype</span> that reflects your <span>brand's values. </span>
+              <br>  Once you're thrilled with it, I'll dive into the <span> development </span> phase.💻
+            </h3>
+            <img src="img/profil1.png" alt="">
+          </div>
+          <!--          Client's voice-->
+          <div class="period m3">
+            <img src="img/LogoPeriod.png" alt="">
+            <h3> Awesome! And then what?
+            </h3>
+          </div>
+          <!--          Dev's voice-->
+          <div class="moi m2">
+            <h3>   Once the website is looking sleek and polished, we'll push it live for the world to see!
+              <br>  But hey, let's not get ahead of ourselves. When are we kicking off this exciting project? 😊
+            </h3>
+            <img src="img/profil1.png" alt="">
+          </div>
+        </div>
+        <div class="button">
+          <a class="btnsec2" onclick="scrollacc2()">
+            <p>The Process !</p>
+            <img src="img/ardown.svg" alt="">
+          </a>
+        </div>
+
+
+      </section>
+
+      <section class="sec3" id="sec3">
+        <div class="zone2" id="zone2">
+          <div class="ens">
+            <div class="anal yo">
+              <h3> <img src="img/idea.svg" alt=""> SWOT Analysis</h3>
+              <p> I'll conduct a SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) to evaluate your brand's internal strengths and weaknesses as well as external opportunities and threats in the market</p>
+            </div>
+    
+            <div class="difi yo">
+              <h3> <img src="img/pb.svg" alt=""> Issue</h3>
+              <p>Without the critical insights into your brand's current market position, competitive landscape, and potential challenges. You risk operating blindly, unaware of key factors that could impact your brand's success and hinder its growth.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="zone3" id="zone3" >
+          <div class="solu" id="solu">
+            <h3>Solution</h3>
+          </div>
+        </div>
+      </section>
+      
+      
+      <section class="sec4" id="sec4">
+        <div class="design">
+              <img  class="pe" id="pe1" src="img/period-min.png" alt="">
+              <img class="mac" src="img/mac-min.png" alt="">
+        </div>
+        <div class="arg"> 
+          <div class="arg1" style="z-index: 10;">
+            <img src="img/focus.svg" alt="">
+            <h5>Innovative Design</h5>
+            <p> Explore how our website's innovative design elements create a seamless and immersive browsing experience.</p>
+          </div>
+  
+          <div class="arg1" >
+            <img src="img/star.svg" alt="">
+            <h5>  Interactive Elements</h5>
+            <p> Engage with our website's interactive elements that captivate users and encourage exploration. </p>
+          </div>
+        </div>
+
+
+        
+          <div class="mobile">
+            <img class="pem" id="pe2" src="img/periodmobile.png" alt="">
+            <img class="iphone" src="img/iphone.png" alt="">
+        </div>
+      </section>
+
+
+      <section class="sec4mobile" id="sec4">
+ 
+        <div class="arg"> 
+          <div class="arg1" style="z-index: 10;">
+            <img src="img/focus.svg" alt="">
+            <h4>Innovative Design</h4>
+            <p>Explore how our website's innovative design elements create a seamless and immersive browsing experience.</p>
+          </div>
+          <div class="arg1" >
+            <img src="img/star.svg" alt="">
+            <h4>  Interactive Elements</h4>
+            <p> Engage with our website's interactive elements that captivate users and encourage exploration </p>
+          </div>
+        </div>
+
+        <div class="design">
+              <img  class="pe" id="pe2" src="img/period-min.png" alt="">
+              <img class="mac" src="img/mac2.png" alt="">
+        </div>
+
+  
+
+
+        
+          <div class="mobile">
+            <img class="pem" src="img/periodmobile.png" alt="">
+            <img class="iphone" src="img/iphone.png" alt="">
+        </div>
+      </section>
+
+
+      <section class="faq">
+        <div class="faq1 faq2">
+          <div class="left">
+            <img src="img/devis.svg" alt="">
+            <h4> What is <br> the price?</h4>
+          </div>
+          <div class="hr"></div>
+          <p>It typically costs between £80 and £100. Larger projects will vary depending on the scope and time required. Once I have the specifics, I'll provide you with a quote.</p>
+        </div>
+        <div class="faq1 faq3">
+          <div class="left">
+            <img src="img/settings.svg" alt="">
+            <h4> What's next ?</h4>
+          </div>
+          <div class="hr"></div>
+          <p>You'll have access to a Content Management System (CMS) that allows easy modifications to your website.
+            With this tool, you can update content, add new pages and upload images.
+            We'll provide training on how to use the CMS effectively, empowering you to make changes and keep your website current.</p>
+        </div>
+        <div class="faq1 faq5">
+          <div class="left">
+            <img src="img/moon.svg" alt="">
+            <h4> Additionally</h4>
+          </div>
+          <div class="hr"></div>
+          <p>We can discuss ongoing maintenance and support options to ensure your website remains functional and up-to-date on a monthly basis. </p>
+        </div>
+    </section>
+
+<div id="realisation"></div>
+
+      <section class="sec5" id="sec5">
+
+        <h2 > My most stunning accomplishments  <img src="img/starss.svg" alt=""> </h2>
+
+        <div class="cards">
+          
+          <div class="card" style="background-color:#E9FFFF ; background-image: linear-gradient(rgb(255, 255, 255),#E9FFFF, rgb(255, 255, 255));;">
+            <div class="img">
+              <img class="im1" src="img/pe.png" alt="">
+              <img src="img/pe2.png" alt="">
+            </div>
+
+            <h4>.Period</h4>
+
+            <div class="aww">
+              <img src="img/aww.svg" alt="">
+              <a href="https://www.designrush.com/agency/branding/trends/best-menstrual-product-branding#mcetoc_1gepakcjj3j" target="_blank">
+                 Best design award
+               </a>
+            </div>
+            <div class="lien">
+              <img src="img/out.svg" alt="">
+              <a href="https://www.behance.net/gallery/140018865/PERIOD-Web-Design" target="_blank">Design web</a>
+            </div>
+          </div>
+
+          <div class="card" style="background-color:#F5FFF8 ; background-image: linear-gradient(rgb(255, 255, 255),#d5ffe1, rgb(255, 255, 255));;">
+            <div class="img">
+              <img class="im1" src="img/ma.png" alt="">
+              <img src="img/ma2.png" alt="">
+            </div>
+
+            <h4>.Mackin</h4>
+
+            <div class="lien">
+              <img src="img/out.svg" alt="">
+              <a href="https://www.behance.net/gallery/138308179/MACKIN-Web-Design" target="_blank">Design web</a>
+              <a href="https://www.behance.net/gallery/137392989/MACKIN-logo-design-et-branding" target="_blank">
+                Logo et image de marque
+               </a>
+            </div>
+          </div>
+
+          <div class="card" style="background-color:#EDEDED ;background-image: linear-gradient(rgb(255, 255, 255),#EDEDED, rgb(255, 255, 255));">
+            <div class="img">
+              <img class="im1" src="img/ac.png" alt="">
+              <img src="img/ac2.png" alt="">
+            </div>
+            
+            <h4>.Ac Avocats</h4>
+
+            <div class="lien">
+              <img src="img/out.svg" alt="">
+              <a href="https://www.behance.net/gallery/136904571/Ac-Avocats-Web-design" target="_blank">Design web</a>
+              <a href="https://www.behance.net/gallery/136911673/Ac-Avocats-Logo-design-Branding" target="_blank">
+                Logo et image de marque
+               </a>
+            </div>
+          </div>
+          
+          <div id="first" class="card" style="background-color: #E6FFFE; background-image: linear-gradient(rgb(255, 255, 255),#E6FFFE, rgb(255, 255, 255));">
+            <div class="img">
+              <img class="im1" src="img/li.png" alt="">
+              <img src="img/li2.png" alt="">
+            </div>
+
+            <h4>.Limbia</h4>
+
+            <div class="lien">
+              <img src="img/out.svg" alt="">
+              <a href="https://www.behance.net/gallery/136901719/Limbia-Logo-design-Branding" target="_blank">
+                Logo et image de marque
+               </a>
+              <a href="https://www.behance.net/gallery/136901895/Limbia-App-design" target="_blank">App design</a>
+            </div>
+          </div>
+
+          <div class="card" style="background-color:#ffffff ; background-image: linear-gradient(rgb(255, 255, 255),#ffffff, rgb(255, 255, 255));">
+            <div class="img" style="">
+              <img class="im1" src="img/lo.png" alt="">
+              <img src="img/lo2.png" alt="">
+            </div>
+
+            <h4>.Loin</h4>
+
+            <div class="lien">
+              <img src="img/out.svg" alt="">
+              <a href="https://www.behance.net/gallery/135137141/Concept-site-web-pour-agence-de-voyage" target="_blank">Design web</a>
+              <a href="https://www.behance.net/gallery/135137001/Concept-logo-agence-de-voyage-LOIN" target="_blank">
+                Logo et image de marque
+               </a>
+            </div>
+          </div>
+
+          <div id="prev">
+            <img src="" width="40px" />
+        </div>
+        <div id="next">
+            <img src="img/next.svg" width="32px" />
+        </div>
+
+          
+        </div>
+
+        <h3 class="autre">Toutes mes Projects sont disponible sur <a href="https://www.behance.net/briceclain" target="_blank">Behance</a> pour le design, et sur <a href="https://github.com/bclain" target="_blank">Github</a> pour le code</h3>
+
+      </section>
+      <img id="nextimg" src="img/next.svg" />
+      <img id="previmg" src="img/backk.svg" />
+      <section class="sec6">
+
+        <div class="txt">
+          <h1> Jason Githui   </h1>
+          <h3> Trois-rivières (Quebec)</h3>
+
+          <h5> Je design et développe des sites web, beaux, intuitifs, et accessibles. </h2>
+           <p>Je me passionne pour le design graphique et le développement web. Cette association créative entre logique du code et esthétique du design me permet de travailler efficacement dans les deux domaines, sans intermédiaire.  </p>
+           
+           <h5>Je crée aussi votre image de marque, votre logo, votre bannière… </h2>
+            <p>Je peux vous fournir une identité de marque et un site web, à partir d’une simple idée. Mes collaborateurs apprécient ma polyvalence. La qualité de mon travail est assurée par mon expérience en agence.</p>
+       
+            <a href="https://www.linkedin.com/in/brice-clain-853852189/" target="_blank">Découvrir mon parcour (Linkedin)</a>
+          
+
+        </div>
+
+            <div class="comp">
+              <div class="cdes">
+                <h4>.Design graphique et ux/ui</h4>
+                <div class="citem">
+                  <img class="" src="img/tech/item1.svg" alt="">
+                  <img class="" src="img/tech/item2.svg" alt="">
+                  <img class="" src="img/tech/item21.svg" alt="">
+                  <img class="" src="img/tech/item22.svg" alt="">
+                </div>
+              </div>
+              <div class="cdev">
+                <h4>.Développement web</h4>
+                <div class="citem">
+                  <img class="" src="img/tech/item3.svg" alt="">
+                  <img class="" src="img/tech/item4.svg" alt="">
+                  <img class="" src="img/tech/item5.svg" alt="">
+                  <img class="" src="img/tech/item6.svg" alt="">
+                  <img class="" src="img/tech/item7.svg" alt="">
+                  <img class="" src="img/tech/item8.svg" alt="">
+                </div>
+              </div>
+            </div>
+        <div class="bottom"> © Jason Githui </div>
+      </section>
+
+
+    </div>
+ 
+    
+
+<script src="js/main.js" ></script>
+</body>
+</html>
